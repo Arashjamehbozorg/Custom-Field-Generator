@@ -28,7 +28,7 @@ The Custom Fields Generator is a web-based application that allows users to dyna
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Arashjamehbozorg/Custom-Field-Generator.git
    ```
 2. Navigate to the project directory:
    ```bash
