@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Custom Fields Generator</title>
+  </head>
+  <body>
+    <h1 id="project-title">Custom Field Generator</h1>
+    <div class="form-container">
+      <form id="dynamic-form">
+        <div class="dynamic-fields">
+          <h3>Input Fields</h3>
+          <!-- Added fields will be shown here -->
+        </div>
+        <div class="buttons-container">
+          <button class="add-text button">Add Text Field</button>
+          <button class="add-select button">Add Select Field</button>
+          <button class="save-button button">
+            Save and Display in the Table
+          </button>
+        </div>
+      </form>
+      <div class="table-container">
+        <h3>Table</h3>
+        <table id="display-table">
+          <thead>
+            <tr class="table-headers"></tr>
+          </thead>
+          <tbody class="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
